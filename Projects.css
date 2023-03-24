@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 30vh;
+    text-align: center;
+}
+header h1{
+    padding-top: 12vh;
+    color: white;
+    text-shadow: 2px 2px 10px whitesmoke;
+} 
+body{
+    background-color: rgb(103, 234, 234);
+    color: black;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+}
+table,
+th,
+td {
+    border: 1px solid green;
+}
+a:hover{
+    font-weight: bold;
+}
+table{
+    width: 60vw;
+}

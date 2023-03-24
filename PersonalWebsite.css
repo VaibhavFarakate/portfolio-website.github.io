@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    height: 25vh;
+    color: white;
+}
+#name{
+    float: left;
+    display: flex;
+    height: 25vh;
+    width: 36%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#logo{
+    float:left;
+    height: 25vh;
+    width: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#contact{
+    float: right;
+    display: grid;
+    height:25vh;
+    width: 32%;
+    text-align: center;
+    place-items: center;
+}
+#logo img{
+    height: 25vh;
+    width: auto;
+}
+#contact ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+.icons{
+    height: 5vh;
+    width: auto;
+    margin:2vh
+}
+.icons:hover{
+    transform: scale(1.5);
+}
+nav ul{
+    display: block;
+    background-color: purple;
+    height: 5vh;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 3vw;
+    align-items: center;
+    margin-top: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+main {
+    height: auto;
+    background-color: rgb(113, 140, 141);
+}
+
+.main {
+    background-color: cadetblue;
+    width: 50vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25vw 0;
+    text-align: center;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.main section div{
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main section h1{
+    width: fit-content;
+    border-right: 3px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow:hidden;
+    animation: 
+        typing 3s steps(17),
+        cursor 0.4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50% {border-color: transparent;}
+}
+@keyframes typing{
+    from{width: 0;}
+}
+.red {
+    color: darkred;
+}
+
+.main h3 {
+    color: blue;
+    margin: 3vh 0;
+}
+.main p{
+    color: blue;
+    margin: 3vh 0;
+    text-decoration: underline;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

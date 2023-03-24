@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed whitesmoke;
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 10px whitesmoke;
+}
+
+body {
+    background-color: rgb(243, 124, 124);
+}
+
+main {
+    text-align: center;
+    border: 2px dashed whitesmoke;
+}
+
+.technical {
+    margin-top: 5vh;
+}
+
+div {
+    margin-bottom: 10vh;
+}
+
+main th {
+    background-color: cornflowerblue;
+}
+
+main tr {
+    background-color: bisque;
+}
+
+.serial {
+    background-color: cornflowerblue;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid green;
+}
+a:hover{
+    font-weight: bold;
+}
